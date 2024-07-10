@@ -1,0 +1,300 @@
+<script>
+        const themeSwitch = document.getElementById("theme-switch");
+        const themeIndicator = document.getElementById("theme-indicator");
+        const page = document.body;
+
+        const themeStates = ["light", "dark"];
+        const indicators = ["fa-moon", "fa-sun"];
+        const pageClass = ["bg-gray-100", "dark-page"];
+
+        let currentTheme = localStorage.getItem("theme");
+
+        function setTheme(theme) {
+            localStorage.setItem("theme", themeStates[theme]);
+        }
+
+        function setNormalText() {
+            // Restaura el color original de todos los elementos en el cuerpo, incluyendo navbar y sidebar
+            const allTextElements = document.querySelectorAll('*');
+            allTextElements.forEach(element => {
+                element.style.color = ''; // Deja que los estilos originales se apliquen
+            });
+
+            // Restaura el color original de los iconos
+            const iconElements = document.querySelectorAll('.nav-link .icon i');
+            iconElements.forEach(element => {
+                element.style.color = '#1d365d'; // Cambia esto al color original de tus iconos
+            });
+            // Aplica la clase text-white solo a los iconos de Font Awesome
+            const fontAwesomeIcons = document.querySelectorAll('td .fas');
+            fontAwesomeIcons.forEach(icon => {
+                icon.classList.add('text-secondary');
+                icon.classList.remove('text-white');
+
+            });
+
+            // Restaura el color original de los íconos de los elementos no activos
+            const inactiveIconElements = document.querySelectorAll('.nav-item:not(.active) .icon i');
+            inactiveIconElements.forEach(element => {
+                element.style.color = '#1d365d'; // Cambia esto al color original de tus íconos
+            });
+            console.log('setNormalText()');
+        }
+
+        function setWhiteText() {
+            // Restaura el color original de todos los elementos en el cuerpo, incluyendo navbar y sidebar
+            const allTextElements = document.querySelectorAll('*');
+            allTextElements.forEach(element => {
+                element.style.color = '#fff';
+            });
+
+            // Restaura el color original de los iconos dentro de .nav-item.active .icon i
+            const navIconElements = document.querySelectorAll('.nav-item.active .icon i');
+            navIconElements.forEach(element => {
+                element.style.color = '#fff'; // Cambia esto al color original de tus íconos en modo oscuro
+            });
+
+            // Restaura el color original de los iconos
+            const iconElements = document.querySelectorAll('.nav-link .icon i');
+            iconElements.forEach(element => {
+                element.style.color = '#1d365d'; // Cambia esto al color original de tus iconos
+            });
+
+            // Aplica la clase text-white solo a los iconos de Font Awesome dentro de las celdas de la tabla
+            const tableIconElements = document.querySelectorAll('td .fas');
+            tableIconElements.forEach(icon => {
+                icon.classList.add('text-white');
+                icon.classList.remove('text-secondary');
+            });
+
+            // Restaura el color original de las fechas dentro de las celdas de la tabla
+            const tableDateElements = document.querySelectorAll('td span.text-secondary');
+            tableDateElements.forEach(element => {
+                element.style.color = '#fff'; // Cambia esto al color original de tus fechas en modo oscuro
+            });
+
+            // Restaura el color original de los enlaces de las páginas
+            const pageLinkElements = document.querySelectorAll('.page-link');
+            pageLinkElements.forEach(element => {
+                element.style.color = ''; // Deja que los estilos originales se apliquen
+            });
+        }
+
+
+        function setIndicator(theme) {
+            if (themeIndicator) {
+                themeIndicator.classList.remove(indicators[0]);
+                themeIndicator.classList.remove(indicators[1]);
+                themeIndicator.classList.add(indicators[theme]);
+            }
+        }
+
+        function setPage(theme) {
+            page.classList.remove(pageClass[0]);
+            page.classList.remove(pageClass[1]);
+            page.classList.add(pageClass[theme]);
+        }
+
+        function isNight() {
+            const now = new Date();
+            const hours = now.getHours();
+            const isNight = hours < 6 || hours >= 18;
+            console.log(`Current time: ${hours}h, isNight: ${isNight}`);
+            return isNight;
+        }
+
+        if (currentTheme == null || currentTheme == undefined) {
+            if (isNight()) {
+                setTheme(1);
+                setIndicator(1);
+                setPage(1);
+                setWhiteText();
+            } else {
+                setTheme(0);
+                setIndicator(0);
+                setPage(0);
+                setNormalText();
+            }
+            currentTheme = localStorage.getItem("theme");
+            console.log(`Initial theme set: ${currentTheme}`);
+        }
+
+
+        setIndicator(currentTheme);
+        setPage(currentTheme);
+
+        themeSwitch.checked = currentTheme === themeStates[0];
+
+        themeSwitch.addEventListener('change', function() {
+            if (this.checked) {
+                setTheme(0);
+                setIndicator(0);
+                setPage(0);
+                setNormalText();
+            } else {
+                setTheme(1);
+                setIndicator(1);
+                setPage(1);
+                setWhiteText();
+            }
+            updateThemeIndicator();
+        });
+
+        function updateThemeIndicator() {
+            const themeIndicatorElement = document.getElementById('theme-indicator');
+            if (themeSwitch.checked) {
+                themeIndicatorElement.innerHTML = '<i class="fa fa-sun"></i>';
+            } else {
+                themeIndicatorElement.innerHTML = '<i class="fa fa-moon"></i>';
+            }
+        }
+
+        // Llama a la función para establecer el color al cargar la página
+        if (currentTheme === themeStates[1]) {
+            setTheme(1);
+            setIndicator(1);
+            setPage(1);
+            setWhiteText();
+        } else {
+            setTheme(0);
+            setIndicator(0);
+            setPage(0);
+            setNormalText();
+        }
+    </script>
+
+    <style>
+        .highlight {
+            background-color: yellow;
+            /* Puedes personalizar el color de fondo del resaltado */
+        }
+        .highlight-dark {
+            background-color: purple;
+            /* Puedes personalizar el color de fondo del resaltado */
+        }
+           
+    </style>
+
+    <script>
+        let originalContent = null;
+
+        function storeOriginalContent() {
+            if (originalContent === null) {
+                const body = document.body;
+                originalContent = body.innerHTML;
+            }
+        }
+
+        function clickEventListener(event) {
+            const searchInput = document.getElementById('searchInput');
+            if (!searchInput.contains(event.target) && event.target.tagName.toLowerCase() !== 'a') {
+                clearHighlight();
+            }
+            event.stopPropagation();
+        }
+
+
+
+        document.addEventListener('click', clickEventListener);
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                search();
+                event.preventDefault();
+            }
+        }
+
+        function handleChange() {
+            clearHighlight();
+        }
+
+        function search() {
+
+            
+
+            const searchTerm = document.getElementById('searchInput').value.trim();
+
+            if (searchTerm === '') {
+                clearHighlight();
+                return;
+            }
+
+            if (originalContent === null) {
+                storeOriginalContent();
+            }
+
+            const textNodes = getTextNodes(document.body);
+
+            textNodes.forEach(textNode => {
+
+
+                const textContent = textNode.nodeValue.trim();
+                const index = textContent.toLowerCase().indexOf(searchTerm.toLowerCase());
+
+                if (index !== -1) {
+                    const before = document.createTextNode(textContent.substring(0, index));
+                    const matched = document.createTextNode(textContent.substring(index, index + searchTerm
+                        .length));
+                    const after = document.createTextNode(textContent.substring(index + searchTerm.length));
+
+                    const highlighted = document.createElement('span');
+                    highlighted.className = 'highlight';
+                    highlighted.appendChild(matched);
+
+                    const parent = textNode.parentNode;
+                    parent.replaceChild(after, textNode);
+                    parent.insertBefore(after, parent.firstChild);
+                    parent.insertBefore(highlighted, after);
+                    parent.insertBefore(before, highlighted);
+                }
+            });
+
+            document.addEventListener('click', clickEventListener);
+            event.stopPropagation();
+        }
+
+        function clearHighlight() {
+            const highlightedElements = document.querySelectorAll('.highlight');
+            highlightedElements.forEach(element => {
+                const parent = element.parentNode;
+                parent.replaceChild(document.createTextNode(element.textContent), element);
+            });
+
+            document.removeEventListener('click', clickEventListener, true);
+            event.stopPropagation();
+            // Después de completar la búsqueda
+            themeSwitch.addEventListener('change', handleThemeChange);
+            F
+            restoreOriginalContent();
+        }
+
+        function getTextNodes(node) {
+            const textNodes = [];
+            if (node.nodeType === Node.TEXT_NODE && node.nodeValue.trim() !== '') {
+                textNodes.push(node);
+            } else {
+                const childNodes = node.childNodes;
+                for (let i = 0; i < childNodes.length; i++) {
+                    textNodes.push(...getTextNodes(childNodes[i]));
+                }
+            }
+            return textNodes;
+        }
+
+
+        function restoreOriginalContent() {
+            if (originalContent != null) {
+                const body = document.body;
+                body.innerHTML = originalContent;
+
+                // Vuelve a vincular los eventos y funciones necesarios después de restaurar el contenido
+                const searchInput = document.getElementById('searchInput');
+                searchInput.addEventListener('keydown', handleKeyPress);
+                searchInput.addEventListener('input', handleChange);
+
+                // Agrega otros eventos y funciones según sea necesario
+
+                originalContent = null;
+            }
+        }
+    </script>

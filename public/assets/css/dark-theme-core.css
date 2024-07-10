@@ -1,0 +1,1895 @@
+body {
+  transition: background-color 200ms ease-in;
+
+}
+
+body .category-button, .fas .fa-sun {
+  color: #283149 !important;
+}
+
+body .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
+  background-image: linear-gradient(310deg, #283149, #283149) !important;
+  color: #fff !important;
+}
+
+body .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i{
+  background-image: linear-gradient(310deg, #283149, #283149) !important;
+  color: #fff !important;
+}
+
+/* body .category-button i {
+  color: #283149 !important;
+} */
+
+
+body.dark-page {
+  background-color: #283149;
+  color: #fff !important;
+}
+
+body.dark-page #descp { 
+  /* background-color: #283149; */
+  color: #fff !important;
+}
+
+body.dark-page .list-group-item {
+  background-color: #404B69 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+body.dark-page .list-group-item:hover {
+  /* background-color: #404B69 !important; */
+  color: #404B69 !important;
+}
+
+body.dark-page .list-group-item .text-sm .mb-0:hover {
+  /* background-color: #404B69 !important; */
+  color: #404B69 !important;
+}
+
+
+
+body.dark-page .bg-gray-100 {
+  background-color: transparent !important;
+}
+
+body.dark-page .text-body {
+  color: #fff !important;
+}
+
+body.dark-page .text-gradient.text-dark {
+  background-image: linear-gradient(310deg, #ffffff, #ffffff);
+}
+
+body.dark-page .fixed-plugin .fixed-plugin-button {
+  background-color: #283149;
+  color: #fff !important;
+}
+
+body.dark-page .sidenav-header .navbar-brand {
+  color: #fff !important;
+}
+
+body.dark-page .card,
+body.dark-page .card-header {
+  background-color: #404B69 !important;
+}
+
+body.dark-page h6,
+body.dark-page .h6,
+body.dark-page h5,
+body.dark-page .h5,
+body.dark-page h4,
+body.dark-page .h4,
+body.dark-page h3,
+body.dark-page .h3,
+body.dark-page h2,
+body.dark-page .h2,
+body.dark-page h1,
+body.dark-page .h1 {
+  color: #fff !important;
+}
+
+body.dark-page .text-dark {
+  color: #fff !important;
+}
+
+body.dark-page select {
+
+  background-color: #283149;
+  ;
+  /* Cambia esto al color deseado para el fondo del select en modo oscuro */
+  border-color: #404B69;
+  /* Cambia esto al color deseado para el borde del select en modo oscuro */
+}
+
+body.dark-page select option {
+  color: #404B69;
+  /* Cambia esto al color deseado para el texto de las opciones en modo oscuro */
+  background-color: transparent;
+  /* Cambia esto al color deseado para el fondo de las opciones en modo oscuro */
+}
+
+body.dark-page .table {
+  border-color: rgba(85, 119, 154, 0.2784313725);
+}
+
+body.dark-page .table> :not(:last-child)> :last-child>* {
+  border-bottom-color: rgba(85, 119, 154, 0.2784313725);
+}
+
+body.dark-page .dropdown-menu {
+  background-color: #283149;
+  color: #fff !important;
+}
+
+body.dark-page .dropdown-menu:before {
+  color: #283149 !important;
+}
+
+body.dark-page .dropdown-menu a {
+  color: #fff !important;
+}
+
+body.dark-page .dropdown-menu .dropdown-item:hover,
+body.dark-page .dropdown-menu .dropdown-item:focus {
+  background-color: #404B69;
+}
+
+body.dark-page .input-group span,
+body.dark-page .input-group input {
+  background-color: rgba(40, 49, 73, 0.6);
+  border-color: rgba(40, 49, 73, 0.8) !important;
+}
+
+body.dark-page .navbar-main:not(.bg-transparent) .input-group span,
+body.dark-page .navbar-main:not(.bg-transparent) .input-group input {
+  background-color: #404B69 !important;
+  border-color: #283149;
+}
+
+body.dark-page .navbar-main.blur {
+  background-color: rgba(64, 75, 105, 0.5) !important;
+  border-color: #283149;
+  box-shadow: none !important;
+}
+
+body.dark-page .navbar-main.blur .nav-link {
+  color: #fff !important;
+}
+
+body.dark-page .navbar-main.blur .sidenav-toggler-line.bg-dark {
+  background-color: #fff !important;
+}
+
+body.dark-page .sidenav .nav-link.active {
+  background-color: #404B69 !important;
+  color: #fff !important;
+}
+
+body.dark-page .list-group-item {
+  background-color: transparent;
+}
+
+body.dark-page .list-group-item.bg-gray-100 {
+  background-color: rgba(248, 249, 250, 0.0392156863) !important;
+}
+
+body.dark-page .btn-simple.btn-facebook,
+body.dark-page .btn-simple.btn-instagram,
+body.dark-page .btn-simple.btn-twitter {
+  color: #fff !important;
+}
+
+body.dark-page svg.text-dark .color-background {
+  fill: #fff;
+}
+
+body.dark-page .nav.nav-pills .nav-link {
+  color: #fff !important;
+}
+
+body.dark-page .moving-tab .nav-link.active {
+  box-shadow: 0 1px 5px 1px rgba(55, 68, 104, 0.8784313725);
+  background: #283149;
+}
+
+body.dark-page .shadow-blur {
+  box-shadow: inset 0 0 2px rgba(254, 254, 254, 0.82) !important;
+}
+
+body.dark-page .form-switch .form-check-input:checked {
+  border-color: rgba(36, 39, 57, 0.95);
+  background-color: rgba(36, 39, 57, 0.95);
+}
+
+body.dark-page .navbar.blur-rounded {
+  background-color: rgba(64, 75, 105, 0.8) !important;
+}
+
+body.dark-page .navbar.blur-rounded .navbar-brand {
+  color: #fff !important;
+}
+
+body.dark-page .navbar.blur-rounded .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+body.dark-page label,
+body.dark-page .form-label {
+  color: #fff !important;
+}
+
+body.dark-page input {
+  background-color: rgba(40, 49, 73, 0.6);
+  border-color: rgba(64, 75, 105, 0.6);
+}
+
+body.dark-page .form-control {
+  background-color: rgba(40, 49, 73, 0.6);
+  border-color: rgba(64, 75, 105, 0.6);
+  color: #fff !important;
+}
+
+body.dark-page .text-xs {
+  color: #fff !important;
+}
+
+
+
+body.dark-page .text-secondary {
+  color: #fff !important;
+}
+
+
+
+body.dark-page input.form-control:focus {
+  color: #fff !important;
+  background-color: rgba(40, 49, 73, 0.6);
+  border-color: #283149;
+  outline: 0;
+  box-shadow: 0 0 0 2px #283149;
+}
+
+body.dark-page input.form-control:focus {
+  color: #fff !important;
+  background-color: rgba(40, 49, 73, 0.6);
+  border-color: #283149;
+  outline: 0;
+  box-shadow: 0 0 0 2px #283149;
+}
+
+body.dark-page .badge {
+  background-color: #283149  !important;
+}
+
+body.dark-page .progress {
+  background-color: rgba(39, 48, 71, 0.6705882353) !important;
+}
+
+body.dark-page .btn-outline-dark {
+  color: white;
+  border-color: white;
+}
+
+body.dark-page .category-button,
+.fas .fa-sun {
+  color: #283149 !important;
+}
+
+body.dark-page .category-button i {
+  color: #283149 !important;
+}
+
+body.dark-page .bg-gradien-primary {
+  background-image: linear-gradient(310deg, #283149, #283149) !important;
+  background-color: #283149 !important;
+  border: 1px solid #ffffff !important;
+}
+
+/* body.dark-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon:active {
+  
+} */
+
+
+body.dark-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
+  background-image: linear-gradient(310deg, #283149, #283149) !important;
+  color: #fff !important;
+}
+
+body.dark-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i{
+  background-image: linear-gradient(310deg, #283149, #283149) !important;
+  color: #fff !important;
+}
+
+
+
+
+
+
+/*# sourceMappingURL=dark-theme-core.css.map */
+body {
+  transition: background-color 200ms ease-in;
+}
+
+body.kids-page {
+  background-color: #5bc0de;
+  /* Azul claro */
+  color: #5bc0de;
+  /* Texto blanco */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 20px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page #dashkpi {
+
+  color: #5bc0de !important;
+  /* Texto blanco */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 18px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+/* form-control*/
+body.kids-page .form-control {
+  
+  color: #67748e;
+  /* Texto blanco */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 20px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page .category-button,
+i.fas .fa-sun {
+  color: #283149 !important;
+}
+
+body.kids-page .paginate_button.current {
+
+  color: #67748e !important;
+  /* Texto blanco */
+}
+
+body.kids-page .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #67748e !important;
+  /* Cambiar a tu color específico */
+}
+
+
+body.kids-page .bg-gray-100 {
+  background-color: transparent !important;
+}
+
+body.kids-page .text-body {
+  color: #67748e !important;
+  /* Texto negro */
+  font-size: 16px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page .list-group-item {
+  background-color: #5bc0de !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+body.kids-page .list-group-item:hover {
+  /* background-color: #404B69 !important; */
+  color: #5bc0de !important;
+}
+
+
+body.kids-page .text-xs.font-weight-bold.mb-0 {
+  color: #67748e !important;
+  /* Texto negro */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 17px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page span {
+  color: #67748e !important;
+  /* Texto negro */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 17px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page th {
+  color: #67748e !important;
+  /* Texto negro */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 17px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page .card-text {
+  color: #67748e !important;
+  /* Texto negro */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 17px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page .text-xxs {
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-size: 15px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page .text-gradient.text-dark {
+  background-image: linear-gradient(310deg, #fff, #fff);
+  /* Blanco */
+}
+
+body.kids-page .fixed-plugin .fixed-plugin-button {
+  background-color: #5bc0de;
+  /* Azul claro */
+  color: #fff !important;
+}
+
+body.kids-page .sidenav-header .navbar-brand {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.kids-page .card,
+body.kids-page .card-header {
+  background-color: #fff !important;
+  /* Blanco */
+  border-color: #5bc0de !important;
+  /* Azul claro */
+}
+
+body.kids-page h6,
+body.kids-page .h6,
+body.kids-page h5,
+body.kids-page .h5,
+body.kids-page h4,
+body.kids-page .h4,
+body.kids-page h3,
+body.kids-page .h3,
+body.kids-page h2,
+body.kids-page .h2,
+body.kids-page h1,
+body.kids-page .h1 {
+  color: #67748e !important;
+  /* Texto negro */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 20px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page .text-dark {
+  color: #67748e !important;
+  /* Texto negro */
+}
+
+body.kids-page select {
+  background-color: #fff;
+  /* Blanco */
+  border-color: #5bc0de;
+  /* Azul claro */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page select option {
+  color: #67748e;
+  /* Texto negro */
+  background-color: transparent;
+  /* Fondo transparente */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page .table {
+  border-color: rgba(85, 85, 85, 0.2784313725);
+  /* Borde gris */
+}
+
+body.kids-page .table> :not(:last-child)> :last-child>* {
+  border-bottom-color: rgba(85, 85, 85, 0.2784313725);
+  /* Borde gris */
+}
+
+body.kids-page .dropdown-menu {
+  background-color: #5bc0de;
+  /* Azul claro */
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.kids-page .dropdown-menu:before {
+  color: #5bc0de !important;
+  /* Azul claro */
+}
+
+body.kids-page .dropdown-menu a {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.kids-page .dropdown-menu .dropdown-item:hover,
+body.kids-page .dropdown-menu .dropdown-item:focus {
+  background-color: #67748e;
+  /* Negro */
+}
+
+body.kids-page .input-group span,
+body.kids-page .input-group input {
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #fff !important;
+  /* Borde azul claro */
+}
+
+body.kids-page .navbar-main:not(.bg-transparent) .input-group span,
+body.kids-page .navbar-main:not(.bg-transparent) .input-group input {
+  background-color: #fff !important;
+  /* Blanco */
+  border-color: #5bc0de;
+  /* Azul claro */
+}
+
+body.kids-page  .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
+  background-image: linear-gradient(310deg, #5bc0de, #5bc0de) !important;
+  color: #fff !important;
+}
+
+body.kids-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i{
+  background-image: linear-gradient(310deg, #5bc0de, #5bc0de) !important;
+  color: #fff !important;
+}
+
+body.kids-page .navbar-main.blur {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  /* Blanco con opacidad */
+  border-color: #fff;
+  /* Borde azul claro */
+  box-shadow: none !important;
+}
+
+body.kids-page .navbar-main.blur .nav-link {
+  color: #67748e !important;
+  /* Texto negro */
+
+}
+
+body.kids-page .nav-link {
+  color: #67748e !important;
+  /* Texto negro */
+  font-size: 20px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page .bg-gradien-primary {
+  background-image: linear-gradient(310deg, #5bc0de, #5bc0de) !important;
+  background-color: #5bc0de !important;
+  border: 1px solid #ffffff !important;
+}
+
+
+
+body.kids-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
+  background-image: linear-gradient(310deg, #418ca3, #4395ad);
+  color: #fff !important;
+
+}
+
+body.kids-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active {
+  border: 1px solid #3a7b8f !important;
+
+}
+
+body.kids-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i {
+
+  color: #fff !important;
+}
+
+body.kids-page .navbar-main.blur .sidenav-toggler-line.bg-dark {
+  background-color: #67748e !important;
+  /* Texto negro */
+}
+
+body.kids-page .sidenav .nav-link.active {
+  background-color: #5bc0de !important;
+  /* Azul claro */
+  color: #fff !important;
+}
+
+body.kids-page .list-group-item {
+  background-color: transparent;
+}
+
+body.kids-page .list-group-item.bg-gray-100 {
+  background-color: rgba(255, 255, 255, 0.0392156863) !important;
+  /* Blanco con opacidad */
+}
+
+body.kids-page .btn-simple.btn-facebook,
+body.kids-page .btn-simple.btn-instagram,
+body.kids-page .btn-simple.btn-twitter {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.kids-page svg.text-dark .color-background {
+  fill: #fff;
+  /* Texto blanco */
+}
+
+body.kids-page .nav.nav-pills .nav-link {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.kids-page .moving-tab .nav-link.active {
+  box-shadow: 0 1px 5px 1px rgba(55, 68, 104, 0.8784313725);
+  background: #5bc0de;
+  /* Azul claro */
+}
+
+body.kids-page .shadow-blur {
+  box-shadow: inset 0 0 2px rgba(254, 254, 254, 0.82) !important;
+}
+
+body.kids-page .form-switch .form-check-input:checked {
+  border-color: #5bc0de;
+  /* Azul claro */
+  background-color: #fff;
+  /* Blanco */
+}
+
+body.kids-page .navbar.blur-rounded {
+  background-color: rgba(85, 85, 85, 0.8) !important;
+  /* Gris oscuro */
+}
+
+body.kids-page .navbar.blur-rounded .navbar-brand {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.kids-page .navbar.blur-rounded .navbar-nav .nav-link {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.kids-page label,
+body.kids-page .form-label {
+  color: #67748e !important;
+  /* Texto negro */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 20px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page input {
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #5bc0de;
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.kids-page input:focus {
+  color: #67748e !important;
+  /* Texto negro */
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #5bc0de;
+  /* Borde azul claro */
+  outline: 0;
+  box-shadow: 0 0 0 2px #5bc0de;
+  /* Sombra azul claro */
+}
+
+body.kids-page .progress {
+  background-color: rgba(85, 85, 85, 0.6705882353) !important;
+  /* Gris oscuro */
+}
+
+body.kids-page .btn-outline-dark {
+  color: #67748e;
+  /* Texto blanco */
+  border-color: #5bc0de;
+  /* Borde azul claro */
+}
+
+/* Estilos para tablas */
+body.kids-page .table {
+  border-color: #5bc0de;
+  /* Borde azul claro */
+}
+
+body.kids-page .table> :not(:last-child)> :last-child>* {
+  border-bottom-color: #5bc0de;
+  /* Borde azul claro */
+}
+
+/* Estilos para botones */
+body.kids-page .btn {
+  color: #fff;
+  /* Texto blanco */
+  background-color: #5bc0de;
+  /* Fondo azul claro */
+  border-color: #5bc0de;
+  /* Borde azul claro */
+}
+
+body.kids-page .btn:hover,
+body.kids-page .btn:focus {
+  background-color: #fff;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #5bc0de;
+  /* Texto azul claro al pasar el ratón o enfocar */
+  border-color: #fff;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+body.kids-page .btn-outline-dark {
+  color: #fff;
+  /* Texto blanco */
+  border-color: #5bc0de;
+  /* Borde azul claro */
+
+}
+
+body.kids-page .btn-outline-dark:hover,
+body.kids-page .btn-outline-dark:focus {
+  color: #5bc0de;
+  /* Texto azul claro al pasar el ratón o enfocar */
+  border-color: #5bc0de;
+  /* Borde azul claro al pasar el ratón o enfocar */
+}
+
+/* Estilos para botones de tipo submit */
+body.kids-page button[type="submit"] {
+  color: #5bc0de !important;
+  /* Texto blanco */
+  background-color: #fff !important;
+  /* Fondo azul claro */
+  border-color: #5bc0de !important;
+  /* Borde azul claro */
+}
+
+body.kids-page button[type="submit"]:hover,
+body.kids-page button[type="submit"]:focus {
+  background-color: #fff !important;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #5bc0de !important;
+  /* Texto azul claro al pasar el ratón o enfocar */
+  border-color: #fff !important;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+body.kids-page button.bg-gradient-dark {
+  color: #fff !important;
+  /* Texto blanco */
+  background-image: linear-gradient(310deg, #5bc0de, #5bc0de) !important;
+  background-color: #5bc0de !important;
+  /* Fondo azul claro */
+  border-color: #5bc0de !important;
+  /* Borde azul claro */
+  border: 1px solid #ffffff !important;
+  /* Borde azul claro */
+}
+
+body.kids-page .bg-gradient-dark {
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+  color: #fff !important;
+  /* Texto blanco */
+  background-image: linear-gradient(310deg, #5bc0de, #5bc0de) !important;
+  background-color: #5bc0de !important;
+  /* Fondo azul claro */
+  border: 1px solid #ffffff !important;
+  /* Borde azul claro */
+}
+
+body.kids-page button.bg-gradient-dark:hover,
+body.kids-page button.bg-gradient-dark:focus {
+  background-image: linear-gradient(310deg, #fff, #fff) !important;
+  background-color: #fff !important;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #5bc0de !important;
+  /* Texto azul claro al pasar el ratón o enfocar */
+  border-color: #fff !important;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+body.kids-page .paginate_button {
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-family: 'Comic Sans MS', cursive !important;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+}
+
+body.kids-page .dataTables_wrapper .dataTables_paginate .paginate_button {
+  /* Otros estilos... */
+  color: #344e41 !important;
+  font-size: 20px;
+  border: 1px solid #344e41 !important;
+  background: #fff; /* Cambia esto al color sólido que desees */
+}
+
+body.kids-page .paginate_button {
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-family: 'Comic Sans MS', sans-serif !important;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+}
+
+body.kids-page .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #344e41 !important;
+  
+  /* Cambiar a tu color específico */
+}
+
+body.kids-page .cursor-pointer {
+
+  background-color: none;
+}
+
+body.kids-page .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #344e41 !important;
+  /* Cambiar a tu color específico */
+  font-family: 'Comic Sans MS', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+}
+
+/*# sourceMappingURL=young-theme-core.css.map */
+
+body.young-page {
+  background-color: #a3b18a;
+  /* Rojo coral */
+  color: #a3b18a !important;
+  /* Texto blanco */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 14px;
+  /* Cambia 18px al tamaño de fuente deseado */
+}
+
+body.young-page #dashkpi {
+
+  color: #a3b18a !important;
+  /* Texto blanco */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 16px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.young-page .form-control {
+
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.young-page .category-button,
+.fas .fa-sun {
+  color: #283149 !important;
+}
+
+body.young-page .bg-gradient-primary{
+  background-image: linear-gradient(310deg, #a3b18a, #a3b18a) !important;
+  background-color: #a3b18a !important;
+  border: 1px solid #ffffff !important;
+}
+
+body.young-page .category-button i {
+  color: #283149 !important;
+}
+
+body.young-page .paginate_button {
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+}
+
+body.young-page .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #344e41 !important;
+  
+  /* Cambiar a tu color específico */
+}
+
+body.young-page .dataTables_wrapper .dataTables_paginate .paginate_button {
+  /* Otros estilos... */
+  color: #344e41 !important;
+  border: 1px solid #344e41 !important;
+  background: #fff; /* Cambia esto al color sólido que desees */
+}
+
+body.young-page .bg-gray-100 {
+  background-color: transparent !important;
+}
+
+body.young-page .text-body {
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  color: #344e41 !important;
+  /* Azul brillante */
+}
+
+body.young-page .text-center {
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  color: #344e41 !important;
+  /* Azul brillante */
+}
+
+body.young-page  .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
+  background-image: linear-gradient(310deg, #344e41, #344e41) !important;
+  color: #fff !important;
+}
+
+body.young-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i{
+  background-image: linear-gradient(310deg, #344e41, #344e41) !important;
+  color: #fff !important;
+}
+
+body.young-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
+  background-image: linear-gradient(310deg, #344e41, #344e41);
+  color: #fff !important;
+
+}
+
+body.young-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active {
+  border: 1px solid #344e41 !important;
+
+}
+
+
+
+body.young-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i {
+
+  color: #fff !important;
+}
+
+body.young-page .text-xs.font-weight-bold.mb-0 {
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-size: 14px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+}
+
+body.young-page .text-xxs {
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-size: 13px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.young-page .text-secondary {
+  color: #344e41 !important;
+  /* Azul brillante */
+}
+
+body.young-page .text-gradient.text-dark {
+  background-image: linear-gradient(310deg, #a3b18a, #a3b18a);
+  /* Rojo coral */
+}
+
+body.young-page .fixed-plugin .fixed-plugin-button {
+  background-color: #a3b18a;
+  /* Rojo coral */
+  color: #fff !important;
+}
+
+body.young-page .sidenav-header .navbar-brand {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.young-page .card,
+body.young-page .card-header {
+  background-color: #fff !important;
+  /* Blanco */
+  border-color: #a3b18a !important;
+  /* Rojo coral */
+}
+
+body.young-page h6,
+body.young-page .h6,
+body.young-page h5,
+body.young-page .h5,
+body.young-page h4,
+body.young-page .h4,
+body.young-page h3,
+body.young-page .h3,
+body.young-page h2,
+body.young-page .h2,
+body.young-page h1,
+body.young-page .h1 {
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 18px;
+  /* Cambia 18px al tamaño de fuente deseado */
+}
+
+body.young-page .text-dark {
+  color: #344e41 !important;
+  /* Azul brillante */
+}
+
+body.young-page select {
+  background-color: #fff;
+  /* Blanco */
+  border-color: #a3b18a;
+  /* Rojo coral */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.young-page select option {
+  color: #344e41;
+  /* Azul brillante */
+  background-color: transparent;
+  /* Fondo transparente */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.young-page .table {
+  border-color: rgba(85, 85, 85, 0.2784313725);
+  /* Borde gris */
+}
+
+body.young-page .dropdown-menu {
+  background-color: #a3b18a;
+  /* Rojo coral */
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.kids-page span {
+  color: #fff !important;
+  /* Texto negro */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 16px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.young-page .dropdown-menu:before {
+  color: #a3b18a !important;
+  /* Rojo coral */
+}
+
+body.young-page .dropdown-menu a {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.young-page .dropdown-menu .dropdown-item:hover,
+body.young-page .dropdown-menu .dropdown-item:focus {
+  background-color: #344e41;
+  /* Azul brillante */
+}
+
+body.young-page .input-group span,
+body.young-page .input-group input {
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #fff !important;
+  /* Borde blanco */
+}
+
+body.young-page .navbar-main:not(.bg-transparent) .input-group span,
+body.young-page .navbar-main:not(.bg-transparent) .input-group input {
+  background-color: #fff !important;
+  /* Blanco */
+  border-color: #a3b18a;
+  /* Rojo coral */
+}
+
+body.young-page .navbar-main.blur {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  /* Blanco con opacidad */
+  border-color: #fff;
+  /* Borde blanco */
+  box-shadow: none !important;
+}
+
+body.young-page .navbar-main.blur .nav-link {
+  color: #344e41 !important;
+  /* Azul brillante */
+}
+
+body.young-page .navbar-main.blur .sidenav-toggler-line.bg-dark {
+  background-color: #344e41 !important;
+  /* Azul brillante */
+}
+
+body.young-page .sidenav .nav-link.active {
+  background-color: #a3b18a !important;
+  /* Rojo coral */
+  color: #fff !important;
+}
+
+body.young-page .list-group-item {
+  background-color: transparent;
+}
+
+body.young-page .list-group-item.bg-gray-100 {
+  background-color: rgba(255, 255, 255, 0.0392156863) !important;
+  /* Blanco con opacidad */
+}
+
+body.young-page .btn-simple.btn-facebook,
+body.young-page .btn-simple.btn-instagram,
+body.young-page .btn-simple.btn-twitter {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.young-page .card-text {
+  color: #a3b18a !important;
+  /* Texto negro */
+  font-family: 'Poppins', cursive;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 16px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.young-page .badge {
+  background-color: #a3b18a !important;
+}
+
+body.young-page svg.text-dark .color-background {
+  fill: #fff;
+  /* Texto blanco */
+}
+
+body.young-page .nav.nav-pills .nav-link {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.young-page .moving-tab .nav-link.active {
+  box-shadow: 0 1px 5px 1px rgba(55, 68, 104, 0.8784313725);
+  background: #344e41;
+  /* Azul brillante */
+}
+
+body.young-page .shadow-blur {
+  box-shadow: inset 0 0 2px rgba(254, 254, 254, 0.82) !important;
+}
+
+body.young-page .form-switch .form-check-input:checked {
+  border-color: #a3b18a;
+  /* Rojo coral */
+  background-color: #fff;
+  /* Blanco */
+}
+
+body.young-page .navbar.blur-rounded {
+  background-color: rgba(85, 85, 85, 0.8) !important;
+  /* Gris oscuro */
+}
+
+body.young-page .navbar.blur-rounded .navbar-brand {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.young-page .navbar.blur-rounded .navbar-nav .nav-link {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.young-page .nav-link {
+  color: #344e41 !important;
+  /* Texto blanco */
+}
+
+body.young-page label,
+body.young-page .form-label {
+  color: #344e41 !important;
+  /* Azul brillante */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 18px;
+  /* Cambia 18px al tamaño de fuente deseado */
+}
+
+body.young-page input {
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #a3b18a;
+  font-family: 'Arial', sans-serif;
+  /* Cambia 'Arial' al tipo de letra deseado */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.young-page input:focus {
+  color: #344e41 !important;
+  /* Azul brillante */
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #a3b18a;
+  /* Borde rojo coral */
+  outline: 0;
+  box-shadow: 0 0 0 2px #a3b18a;
+  /* Sombra rojo coral */
+}
+
+body.young-page .progress {
+  background-color: rgba(85, 85, 85, 0.6705882353) !important;
+  /* Gris oscuro */
+}
+
+body.young-page .btn-outline-dark {
+  color: #344e41;
+  /* Azul brillante */
+  border-color: #a3b18a;
+  /* Borde rojo coral */
+}
+
+body.young-page .table {
+  border-color: #a3b18a;
+  /* Borde rojo coral */
+}
+
+body.young-page .table> :not(:last-child)> :last-child>* {
+  border-bottom-color: #a3b18a;
+  /* Borde rojo coral */
+}
+
+body.young-page .btn {
+  color: #fff;
+  /* Texto blanco */
+  background-color: #a3b18a;
+  /* Fondo rojo coral */
+  border-color: #a3b18a;
+  /* Borde rojo coral */
+}
+
+body.young-page .btn:hover,
+body.young-page .btn:focus {
+  background-color: #fff;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #a3b18a;
+  /* Texto rojo coral al pasar el ratón o enfocar */
+  border-color: #fff;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+body.young-page .btn-outline-dark {
+  color: #fff;
+  /* Texto blanco */
+  border-color: #a3b18a;
+  /* Borde rojo coral */
+}
+
+body.young-page .btn-outline-dark:hover,
+body.young-page .btn-outline-dark:focus {
+  color: #a3b18a;
+  /* Texto rojo coral al pasar el ratón o enfocar */
+  border-color: #a3b18a;
+  /* Borde rojo coral al pasar el ratón o enfocar */
+}
+
+body.young-page .list-group-item {
+  background-color: #a3b18a !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+body.young-page .list-group-item:hover {
+  /* background-color: #404B69 !important; */
+  color: #a3b18a !important;
+}
+
+body.young-page button[type="submit"] {
+  color: #a3b18a !important;
+  /* Texto blanco */
+  background-color: #fff !important;
+  /* Fondo rojo coral */
+  border-color: #a3b18a !important;
+  /* Borde rojo coral */
+}
+
+body.young-page button[type="submit"]:hover,
+body.young-page button[type="submit"]:focus {
+  background-color: #fff !important;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #a3b18a !important;
+  /* Texto rojo coral al pasar el ratón o enfocar */
+  border-color: #fff !important;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+body.young-page button.bg-gradient-dark {
+  color: #fff !important;
+  /* Texto blanco */
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  background-image: linear-gradient(310deg, #a3b18a, #a3b18a) !important;
+  background-color: #a3b18a !important;
+  /* Fondo rojo coral */
+  border-color: #a3b18a !important;
+  /* Borde rojo coral */
+}
+
+body.young-page .bg-gradient-dark {
+  font-family: 'Poppins', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 16px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+  color: #fff !important;
+  /* Texto blanco */
+  background-image: linear-gradient(310deg, #a3b18a, #a3b18a) !important;
+  background-color: #a3b18a !important;
+  /* Fondo rojo coral */
+  border-color: #a3b18a !important;
+  /* Borde rojo coral */
+}
+
+body.young-page button.bg-gradient-dark:hover,
+body.young-page button.bg-gradient-dark:focus {
+  background-image: linear-gradient(310deg, #fff, #fff) !important;
+  background-color: #fff !important;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #a3b18a !important;
+  /* Texto rojo coral al pasar el ratón o enfocar */
+  border-color: #fff !important;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+
+/*# sourceMappingURL=young-theme-core.css.map */
+
+body.adult-page {
+  background-color: #8e9aaf;
+  /* Tono de plomo */
+  color: #161a1d !important;
+  /* Texto gris oscuro */
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 20px;
+  /* Tamaño de fuente de 20px */
+}
+
+body.adult-page #dashkpi {
+
+  color: #283149 !important;
+  /* Texto blanco */
+  font-family: 'Merriweather', sans-serif;
+  /* Cambia 'Comic Sans MS' al tipo de letra deseado */
+  font-size: 18px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.adult-page .form-control {
+
+  color: #8e9aaf !important;
+  /* Azul brillante */
+  font-family: 'Merriweather', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 18px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.adult-page .form-control {
+
+  color: #8e9aaf !important;
+  /* Azul brillante */
+  font-family: 'Merriweather', sans-serif;
+  /* Cambia 'Poppins' al tipo de letra deseado */
+  font-size: 18px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.adult-page .category-button,
+.fas .fa-sun {
+  color: #283149 !important;
+}
+
+body.adult-page .category-button i {
+  color: #283149 !important;
+}
+
+body.adult-page .paginate_button {
+  color: #000 !important;
+  /* Gris oscuro */
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+}
+
+body.adult-page .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #000 !important;
+  
+  /* Cambiar a tu color específico */
+}
+
+body.adult-page .bg-gray-100 {
+  background-color: transparent !important;
+}
+
+body.adult-page .text-body {
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  color: #000 !important;
+  /* Gris oscuro */
+  font-size: 18px;
+}
+
+body.adult-page .text-center {
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  color: #000 !important;
+  /* Gris oscuro */
+
+}
+
+body.adult-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
+  background-image: linear-gradient(310deg, #000, #000);
+  color: #fff !important;
+}
+
+body.adult-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active {
+  border: 1px solid #000 !important;
+}
+
+body.adult-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i {
+  color: #fff !important;
+}
+
+body.adult-page .text-xs.font-weight-bold.mb-0 {
+  color: #000 !important;
+  /* Gris oscuro */
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 16px !important;
+}
+
+body.adult-page .text-xxs {
+  color: #000;
+  /* Gris oscuro */
+
+  font-size: 15px !important;
+}
+
+body.adult-page .text-secondary {
+  color: #000 !important;
+  /* Gris oscuro */
+}
+
+body.adult-page .text-gradient.text-dark {
+  background-image: linear-gradient(310deg, #8e9aaf, #8e9aaf);
+  /* Tono de plomo */
+}
+
+body.adult-page .fixed-plugin .fixed-plugin-button {
+  background-color: #8e9aaf;
+  /* Tono de plomo */
+  color: #fff !important;
+}
+
+body.adult-page .sidenav-header .navbar-brand {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.adult-page .card,
+body.adult-page .card-header {
+  background-color: #fff !important;
+  /* Blanco */
+  border-color: #8e9aaf !important;
+  /* Tono de plomo */
+}
+
+body.adult-page h6,
+body.adult-page .h6,
+body.adult-page h5,
+body.adult-page .h5,
+body.adult-page h4,
+body.adult-page .h4,
+body.adult-page h3,
+body.adult-page .h3,
+body.adult-page h2,
+body.adult-page .h2,
+body.adult-page h1,
+body.adult-page .h1 {
+  color: #000 !important;
+  /* Gris oscuro */
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 18px;
+  /* Tamaño de fuente de 18px */
+}
+
+body.adult-page .text-dark {
+  color: #000 !important;
+  /* Gris oscuro */
+}
+
+body.adult-page select {
+  background-color: #fff;
+  /* Blanco */
+  border-color: #8e9aaf;
+  /* Tono de plomo */
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 16px;
+  /* Tamaño de fuente de 16px */
+}
+
+body.adult-page select option {
+  color: #000;
+  /* Gris oscuro */
+  background-color: transparent;
+  /* Fondo transparente */
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 16px;
+  /* Tamaño de fuente de 16px */
+}
+
+body.adult-page .table {
+  border-color: rgba(85, 85, 85, 0.2784313725);
+  /* Borde gris */
+}
+
+body.adult-page .dropdown-menu {
+  background-color: #8e9aaf;
+  /* Tono de plomo */
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.adult-page .dropdown-menu:before {
+  color: #8e9aaf !important;
+  /* Tono de plomo */
+}
+
+body.adult-page .bg-gradient-primary{
+  background-image: linear-gradient(310deg, #8e9aaf, #8e9aaf) !important;
+  background-color: #8e9aaf !important;
+  border: 1px solid #ffffff !important;
+}
+
+body.adult-page .dropdown-menu a {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.adult-page .dropdown-menu .dropdown-item:hover,
+body.adult-page .dropdown-menu .dropdown-item:focus {
+  background-color: #000;
+  /* Gris oscuro */
+}
+
+body.adult-page .input-group span,
+body.adult-page .input-group input {
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #fff !important;
+  /* Borde blanco */
+}
+
+body.adult-page .navbar-main:not(.bg-transparent) .input-group span,
+body.adult-page .navbar-main:not(.bg-transparent) .input-group input {
+  background-color: #fff !important;
+  /* Blanco */
+  border-color: #8e9aaf;
+  /* Tono de plomo */
+}
+
+body.adult-page .navbar-main.blur {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  /* Blanco con opacidad */
+  border-color: #fff;
+  /* Borde blanco */
+  box-shadow: none !important;
+}
+
+body.adult-page .navbar-main.blur .nav-link {
+  color: #000 !important;
+  /* Gris oscuro */
+}
+
+body.adult-page .navbar-main.blur .sidenav-toggler-line.bg-dark {
+  background-color: #000 !important;
+  /* Gris oscuro */
+}
+
+body.adult-page .sidenav .nav-link.active {
+  background-color: #8e9aaf !important;
+  /* Tono de plomo */
+  color: #fff !important;
+}
+
+body.adult-page .list-group-item {
+  background-color: transparent;
+}
+
+body.adult-page .list-group-item.bg-gray-100 {
+  background-color: rgba(255, 255, 255, 0.0392156863) !important;
+  /* Blanco con opacidad */
+}
+
+body.adult-page .btn-simple.btn-facebook,
+body.adult-page .btn-simple.btn-instagram,
+body.adult-page .btn-simple.btn-twitter {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.adult-page svg.text-dark .color-background {
+  fill: #fff;
+  /* Texto blanco */
+}
+
+body.adult-page .nav.nav-pills .nav-link {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.adult-page .moving-tab .nav-link.active {
+  box-shadow: 0 1px 5px 1px rgba(55, 68, 104, 0.8784313725);
+  background: #000;
+  /* Gris oscuro */
+}
+
+body.adult-page .shadow-blur {
+  box-shadow: inset 0 0 2px rgba(254, 254, 254, 0.82) !important;
+}
+
+body.adult-page .form-switch .form-check-input:checked {
+  border-color: #8e9aaf;
+  /* Tono de plomo */
+  background-color: #fff;
+  /* Blanco */
+}
+
+body.adult-page .navbar.blur-rounded {
+  background-color: rgba(85, 85, 85, 0.8) !important;
+  /* Gris oscuro */
+}
+
+body.adult-page .navbar.blur-rounded .navbar-brand {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.adult-page .navbar.blur-rounded .navbar-nav .nav-link {
+  color: #fff !important;
+  /* Texto blanco */
+}
+
+body.adult-page .nav-link {
+  color: #000 !important;
+  /* Texto blanco */
+}
+
+body.adult-page label,
+body.adult-page .form-label {
+  color: #000 !important;
+  /* Gris oscuro */
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 18px;
+  /* Tamaño de fuente de 18px */
+}
+
+body.adult-page input {
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #8e9aaf;
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 16px;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.adult-page input:focus {
+  color: #000 !important;
+  /* Gris oscuro */
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Blanco */
+  border-color: #8e9aaf;
+  /* Borde tono de plomo */
+  outline: 0;
+  box-shadow: 0 0 0 2px #8e9aaf;
+  /* Sombra tono de plomo */
+}
+
+body.adult-page .progress {
+  background-color: rgba(85, 85, 85, 0.6705882353) !important;
+  /* Gris oscuro */
+}
+
+body.adult-page .btn-outline-dark {
+  color: #000;
+  /* Gris oscuro */
+  border-color: #8e9aaf;
+  /* Borde tono de plomo */
+}
+
+body.adult-page .table {
+  border-color: #8e9aaf;
+  /* Borde tono de plomo */
+}
+
+body.adult-page .table> :not(:last-child)> :last-child>* {
+  border-bottom-color: #8e9aaf;
+  /* Borde tono de plomo */
+}
+
+body.adult-page .btn {
+  color: #fff;
+  /* Texto blanco */
+  background-color: #8e9aaf;
+  /* Fondo tono de plomo */
+  border-color: #8e9aaf;
+  /* Borde tono de plomo */
+}
+
+body.adult-page .btn:hover,
+body.adult-page .btn:focus {
+  background-color: #fff;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #8e9aaf;
+  /* Texto tono de plomo al pasar el ratón o enfocar */
+  border-color: #fff;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+body.adult-page .btn-outline-dark {
+  color: #fff;
+  /* Texto blanco */
+  border-color: #8e9aaf;
+  /* Borde tono de plomo */
+}
+
+body.adult-page .btn-outline-dark:hover,
+body.adult-page .btn-outline-dark:focus {
+  color: #8e9aaf;
+  /* Texto tono de plomo al pasar el ratón o enfocar */
+  border-color: #8e9aaf;
+  /* Borde tono de plomo al pasar el ratón o enfocar */
+}
+
+body.adult-page button[type="submit"] {
+  color: #8e9aaf !important;
+  /* Texto blanco */
+  background-color: #fff !important;
+  /* Fondo tono de plomo */
+  border-color: #8e9aaf !important;
+  /* Borde tono de plomo */
+}
+
+body.adult-page button[type="submit"]:focus {
+  background-color: #fff !important;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #8e9aaf !important;
+  /* Texto tono de plomo al pasar el ratón o enfocar */
+  border-color: #fff !important;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+body.adult-page .list-group-item {
+  background-color: #8e9aaf !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+body.adult-page .list-group-item:hover {
+  /* background-color: #404B69 !important; */
+  color: #8e9aaf !important;
+}
+
+body.adult-page button.bg-gradient-dark {
+  color: #fff !important;
+  /* Texto blanco */
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  background-image: linear-gradient(310deg, #8e9aaf, #8e9aaf) !important;
+  background-color: #8e9aaf !important;
+  /* Fondo tono de plomo */
+  border-color: #8e9aaf !important;
+  /* Borde tono de plomo */
+}
+
+body.adult-page .bg-gradient-dark {
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 16px;
+  /* Tamaño de fuente de 16px */
+  color: #fff !important;
+  /* Texto blanco */
+  background-image: linear-gradient(310deg, #8e9aaf, #8e9aaf) !important;
+  background-color: #8e9aaf !important;
+  /* Fondo tono de plomo */
+  border-color: #8e9aaf !important;
+  /* Borde tono de plomo */
+}
+
+body.adult-page button.bg-gradient-dark:hover {
+
+  background-image: linear-gradient(310deg, #fff, #fff) !important;
+  background-color: #fff !important;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #8e9aaf !important;
+  /* Texto tono de plomo al pasar el ratón o enfocar */
+  border-color: #fff !important;
+  /* Borde blanco al pasar el ratón o enfocar */
+}
+
+body.adult-page .nav-link {
+  color: #000 !important;
+  /* Texto negro */
+  font-size: 20px !important;
+  /* Cambia 16px al tamaño de fuente deseado */
+}
+
+body.adult-page .badge {
+  background-color: #8e9aaf !important;
+}
+
+body.adult-page .card-text {
+  font-family: 'Merriweather', sans-serif;
+  /* Fuente 'Merriweather' de Google Fonts */
+  font-size: 16px;
+  /* Fondo blanco al pasar el ratón o enfocar */
+  color: #8e9aaf !important;
+}
+
+body.adult-page  .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon {
+  background-image: linear-gradient(310deg, #8e9aaf, #8e9aaf) !important;
+  color: #fff !important;
+}
+
+body.adult-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i{
+  background-image: linear-gradient(310deg, #8e9aaf, #8e9aaf) !important;
+  color: #fff !important;
+}
+
+body.adult-page .navbar-vertical .navbar-nav>.nav-item .nav-link.active .icon i{
+  background-image: linear-gradient(310deg, #8e9aaf, #8e9aaf) !important;
+  color: #fff !important;
+}

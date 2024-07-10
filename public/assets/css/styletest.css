@@ -1,0 +1,270 @@
+body {
+    transition: background-color 200ms ease-in;
+  }
+  
+  body.dark-page {
+    background-color: #d9534f; /* Rojo suave */
+    color: #fff; /* Texto blanco */
+  }
+  
+  body.dark-page .bg-gray-100 {
+    background-color: transparent !important;
+  }
+  
+  body.dark-page .text-body {
+    color: #000 !important; /* Texto negro */
+  }
+  
+  body.dark-page .text-gradient.text-dark {
+    background-image: linear-gradient(310deg, #fff, #fff); /* Blanco */
+  }
+  
+  body.dark-page .fixed-plugin .fixed-plugin-button {
+    background-color: #d9534f; /* Rojo suave */
+    color: #fff !important;
+  }
+  
+  body.dark-page .sidenav-header .navbar-brand {
+    color: #fff !important; /* Texto blanco */
+  }
+  
+  body.dark-page .card,
+  body.dark-page .card-header {
+    background-color: #fff !important; /* Rojo suave */
+    border-color: #d9534f !important; /* Borde rojo suave */
+  }
+  
+  body.dark-page h6,
+  body.dark-page .h6,
+  body.dark-page h5,
+  body.dark-page .h5,
+  body.dark-page h4,
+  body.dark-page .h4,
+  body.dark-page h3,
+  body.dark-page .h3,
+  body.dark-page h2,
+  body.dark-page .h2,
+  body.dark-page h1,
+  body.dark-page .h1 {
+    color: #000 !important; /* Texto negro */
+  }
+  
+  body.dark-page .text-dark {
+    color: #000 !important; /* Texto negro */
+  }
+  
+  body.dark-page select {
+    background-color: #fff; /* Rojo suave */
+    border-color: #d9534f; /* Borde rojo suave */
+  }
+  
+  body.dark-page select option {
+    color: #000; /* Texto negro */
+    background-color: transparent; /* Fondo transparente */
+  }
+  
+  body.dark-page .table {
+    border-color: rgba(85, 85, 85, 0.2784313725); /* Borde gris */
+  }
+  
+  body.dark-page .table > :not(:last-child) > :last-child > * {
+    border-bottom-color: rgba(85, 85, 85, 0.2784313725); /* Borde gris */
+  }
+  
+  body.dark-page .dropdown-menu {
+    background-color: #d9534f; /* Rojo suave */
+    color: #fff !important; /* Texto blanco */
+  }
+  
+  body.dark-page .dropdown-menu:before {
+    color: #d9534f !important; /* Rojo suave */
+  }
+  
+  body.dark-page .dropdown-menu a {
+    color: #fff !important; /* Texto blanco */
+  }
+  
+  body.dark-page .dropdown-menu .dropdown-item:hover,
+  body.dark-page .dropdown-menu .dropdown-item:focus {
+    background-color: #000; /* Negro */
+  }
+  
+  body.dark-page .input-group span,
+  body.dark-page .input-group input {
+    background-color: rgba(255, 255, 255, 0.6); /* Blanco */
+    border-color: #fff !important; /* Borde rojo suave */
+  }
+  
+  body.dark-page .navbar-main:not(.bg-transparent) .input-group span,
+  body.dark-page .navbar-main:not(.bg-transparent) .input-group input {
+    background-color: #fff !important; /* Rojo suave */
+    border-color: #d9534f; /* Borde rojo suave */
+  }
+  
+  body.dark-page .navbar-main.blur {
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Blanco con opacidad */
+    border-color: #fff  ; /* Borde rojo suave */
+    box-shadow: none !important;
+  }
+  
+  body.dark-page .navbar-main.blur .nav-link {
+    color: #000 !important; /* Texto negro */
+  }
+  
+  body.dark-page .navbar-main.blur .sidenav-toggler-line.bg-dark {
+    background-color: #000 !important; /* Texto negro */
+  }
+  
+  body.dark-page .sidenav .nav-link.active {
+    background-color: #d9534f !important; /* Rojo suave */
+    color: #fff !important;
+  }
+  
+  body.dark-page .list-group-item {
+    background-color: transparent;
+  }
+  
+  body.dark-page .list-group-item.bg-gray-100 {
+    background-color: rgba(255, 255, 255, 0.0392156863) !important; /* Blanco con opacidad */
+  }
+  
+  body.dark-page .btn-simple.btn-facebook,
+  body.dark-page .btn-simple.btn-instagram,
+  body.dark-page .btn-simple.btn-twitter {
+    color: #fff !important; /* Texto blanco */
+  }
+  
+  body.dark-page svg.text-dark .color-background {
+    fill: #fff; /* Texto blanco */
+  }
+  
+  body.dark-page .nav.nav-pills .nav-link {
+    color: #fff !important; /* Texto blanco */
+  }
+  
+  body.dark-page .moving-tab .nav-link.active {
+    box-shadow: 0 1px 5px 1px rgba(55, 68, 104, 0.8784313725);
+    background: #d9534f; /* Rojo suave */
+  }
+  
+  body.dark-page .shadow-blur {
+    box-shadow: inset 0 0 2px rgba(254, 254, 254, 0.82) !important;
+  }
+  
+  body.dark-page .form-switch .form-check-input:checked {
+    border-color: #d9534f; /* Negro */
+    background-color: #fff; /* Negro */
+  }
+  
+  body.dark-page .navbar.blur-rounded {
+    background-color: rgba(85, 85, 85, 0.8) !important; /* Gris oscuro */
+  }
+  
+  body.dark-page .navbar.blur-rounded .navbar-brand {
+    color: #fff !important; /* Texto blanco */
+  }
+  
+  body.dark-page .navbar.blur-rounded .navbar-nav .nav-link {
+    color: #fff !important; /* Texto blanco */
+  }
+  
+  body.dark-page label,
+  body.dark-page .form-label {
+    color: #000 !important; /* Texto negro */
+  }
+  
+  body.dark-page input {
+    background-color: rgba(255, 255, 255, 0.6); /* Blanco */
+    border-color: #d9534f;
+  }
+  
+  body.dark-page input:focus {
+    color: #000 !important; /* Texto negro */
+    background-color: rgba(255, 255, 255, 0.6); /* Blanco */
+    border-color: #d9534f; /* Borde rojo suave */
+    outline: 0;
+    box-shadow: 0 0 0 2px #d9534f; /* Sombra roja suave */
+  }
+  
+  
+  body.dark-page .progress {
+    background-color: rgba(85, 85, 85, 0.6705882353) !important; /* Gris oscuro */
+  }
+  
+  body.dark-page .btn-outline-dark {
+    color: #fff; /* Texto blanco */
+    border-color: #d9534f; /* Borde rojo suave */
+  }
+  
+  /* Estilos para tablas */
+  body.dark-page .table {
+    border-color: #d9534f; /* Borde rojo suave */
+  }
+  
+  body.dark-page .table > :not(:last-child) > :last-child > * {
+    border-bottom-color: #d9534f; /* Borde rojo suave */
+  }
+  
+  /* Estilos para botones */
+  body.dark-page .btn {
+    color: #fff; /* Texto blanco */
+    background-color: #d9534f; /* Fondo rojo suave */
+    border-color: #d9534f; /* Borde rojo suave */
+  }
+  
+  body.dark-page .btn:hover,
+  body.dark-page .btn:focus {
+    background-color: #fff; /* Fondo blanco al pasar el ratón o enfocar */
+    color: #d9534f; /* Texto rojo suave al pasar el ratón o enfocar */
+    border-color: #fff; /* Borde blanco al pasar el ratón o enfocar */
+  }
+  
+  body.dark-page .btn-outline-dark {
+    color: #fff; /* Texto blanco */
+    border-color: #d9534f; /* Borde rojo suave */
+  }
+  
+  body.dark-page .btn-outline-dark:hover,
+  body.dark-page .btn-outline-dark:focus {
+    color: #d9534f; /* Texto rojo suave al pasar el ratón o enfocar */
+    border-color: #d9534f; /* Borde rojo suave al pasar el ratón o enfocar */
+  }
+  
+  /* Estilos para botones de tipo submit */
+  body.dark-page button[type="submit"] {
+    color: #fff !important; /* Texto blanco */
+    background-color: #d9534f !important; /* Fondo rojo suave */
+    border-color: #d9534f !important; /* Borde rojo suave */
+  }
+  
+  body.dark-page button[type="submit"]:hover,
+  body.dark-page button[type="submit"]:focus {
+    background-color: #fff !important; /* Fondo blanco al pasar el ratón o enfocar */
+    color: #d9534f !important; /* Texto rojo suave al pasar el ratón o enfocar */
+    border-color: #fff !important; /* Borde blanco al pasar el ratón o enfocar */
+  }
+  
+  /* Estilos para encabezados de tablas */
+  body.dark-page .table th,
+  body.dark-page .table thead th {
+    background-color: #d9534f; /* Fondo rojo suave para el encabezado */
+    color: #fff; /* Texto blanco para el encabezado */
+    border-color: #d9534f; /* Borde rojo suave para el encabezado */
+  }
+  
+  body.dark-page button.bg-gradient-dark {
+    color: #fff !important; /* Texto blanco */
+    background-image: linear-gradient(310deg, #d9534f, #d9534f) !important;
+    background-color: #d9534f !important; /* Fondo rojo suave */
+    border-color: #d9534f !important; /* Borde rojo suave */
+  }
+  
+  
+  
+  body.dark-page button.bg-gradient-dark:hover,
+  body.dark-page button.bg-gradient-dark:focus {
+    background-image: linear-gradient(310deg, #fff, #fff) !important;
+    background-color: #fff !important; /* Fondo blanco al pasar el ratón o enfocar */
+    color: #d9534f !important; /* Texto rojo suave al pasar el ratón o enfocar */
+    border-color: #fff !important; /* Borde blanco al pasar el ratón o enfocar */
+  }
